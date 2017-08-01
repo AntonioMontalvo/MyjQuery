@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="author" content="Antonio Montalvo">
+    <meta name="description" content="Showing how to validate and format and input field for social security number and EIN">
+    <link rel="shortcut icon" href="assets/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="assets/textFundamental.css">
+    <script src="jquery-3.2.1.js" type="text/javascript" charset="utf-8"></script>
+    <title>Social Security Number and EIN field validation</title>
+</head>
+
+<body>
+    <h1>Social Security Number and EIN field validation</h1>
+    <form>
+        <label for="ssn">Enter Social Security Number</label>
+        <br>
+        <input type="text" name="ssn" id="ssn" pattern="^\d{3}-\d{2}-\d{4}$">
+        <p>Enter in this format XXX-XX-XXXX</p>
+        <input id="getssn" type="button" value="submit">
+    </form>
+    <div id="here"></div>
+    <section id="ssnSec" class="re-ssn">
+        <div data-ssn1="1" id="ssn1" class="ssnEin">X</div>
+        <div data-ssn2="2" id="ssn2" class="ssnEin">X</div>
+        <div data-ssn3="3" id="ssn3" class="ssnEin">X</div>
+        <div data-ssn4="4" id="ssn4" class="ssnEin">-</div>
+        <div data-ssn5="5" id="ssn5" class="ssnEin">X</div>
+        <div data-ssn6="6" id="ssn6" class="ssnEin">X</div>
+        <div data-ssn7="7" id="ssn7" class="ssnEin">-</div>
+        <div data-ssn8="8" id="ssn8" class="ssnEin">X</div>
+        <div data-ssn9="9" id="ssn9" class="ssnEin">X</div>
+        <div data-ssn10="10" id="ssn10" class="ssnEin">X</div>
+        <div data-ssn11="11" id="ssn11" class="ssnEin">X</div>
+    </section>
+    <form>
+        <label for="ein"> Enter EIN</label>
+        <br>
+        <input type="text" name="ein" id="" pattern="^[1-9]\d?-\d{7}$">
+        <p>Enter in this format XX-XXXXXXX</p>
+        <input type="submit">
+        <section class="re-ssn">
+            <div id="ein1" class="ssnEin">X</div>
+            <div id="ein2" class="ssnEin">X</div>
+            <div id="ein3" class="ssnEin">-</div>
+            <div id="ein4" class="ssnEin">X</div>
+            <div id="ein5" class="ssnEin">X</div>
+            <div id="ein6" class="ssnEin">X</div>
+            <div id="ein7" class="ssnEin">X</div>
+            <div id="ein8" class="ssnEin">X</div>
+            <div id="ein9" class="ssnEin">X</div>
+            <div id="ein10" class="ssnEin">X</div>
+        </section>
+    </form>
+</body>
+<script src=ssnEin.js></script>
+
+</html>

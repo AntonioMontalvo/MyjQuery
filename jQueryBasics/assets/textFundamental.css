@@ -1,0 +1,148 @@
+body {
+    background-color: lightgray;
+}
+
+h1 {
+    color: mintcream;
+    text-align: center;
+}
+
+h2 {
+    color: deepskyblue;
+}
+
+h3 {
+    color: dodgerblue;
+}
+
+h4 {
+    color: blue;
+}
+
+h5 {
+    color: mediumblue;
+}
+
+h6 {
+    color: navy;
+}
+
+ul {
+    color: coral;
+}
+
+li {
+    color: whitesmoke;
+}
+
+em {
+    color: peru;
+}
+
+strong {
+    color: peru;
+}
+
+p {
+    color: darkslateblue;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+figure {
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+img {
+    width: 350px;
+    max-width: 90%;
+}
+
+code {
+    color: black;
+}
+
+section {
+    width: 535px;
+    height: 384px;
+    background-color: red;
+    margin: auto;
+}
+
+#letter {
+    display: -webkit-box;
+}
+
+#reset {
+    display: -webkit-box;
+}
+
+#pin {
+    display: inline-flex;
+}
+
+#navi {
+    text-align: end;
+    display: block;
+}
+
+#calc {
+    text-decoration: none;
+}
+
+#result {
+    width: 526px;
+    margin-right: 10px;
+    font-size: 4.55em;
+    text-align: right;
+    background-color: black;
+    color: white;
+    padding-right: 10px;
+}
+
+#row1 {
+    height: 60px;
+    background-color: orange;
+    display: -webkit-box;
+}
+
+#row2,
+#row3,
+#row4,
+#row5 {
+    height: 60px;
+    background-color: orange;
+    display: -webkit-box;
+}
+
+.onOff {
+    width: 132px;
+    border: 1px solid black;
+    letter-spacing: 10px;
+    font-size: 46px;
+    text-align: center;
+}
+
+.onOff:hover {
+    background-color: white;
+}
+
+.num {
+    background-color: rgb(255, 193, 0);
+}
+
+.sym {
+    background-color: rgba(128, 182, 185, 0.79);
+}
+
+#result {
+    
+ 
+}
+
+
+
+
+
+

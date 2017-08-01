@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="author" content="Antonio Montalvo">
+    <meta name="description" content="An introduction to the jQuery, a JavaScript library. Setting up a page to work with jQuery, an developing basic concepts">
+    <link rel="shortcut icon" href="assets/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="assets/textFundamental.css">
+    <script src="jquery-3.2.1.js" type="text/javascript" charset="utf-8"></script>
+    <title>An introduction to jQuery</title>
+</head>
+
+<body>
+    <h1>Welcome to JQuery, a JavaScript library</h1>
+    <h2>An introduction to jQuery</h2>
+    <p>Rather than going to deep into jQuery what we want to achive is to present a quick overview of we can do. If in the future you need to develop an application that uses the library, try first at<<a href="http://learn.jquery.com/" target="_blank"><b>learn jQuery</b></a>, and/or at the <a href="http://api.jquery.com/" target="_blank"><b>API jQuery</b></a> </p> 
+    <p>jQuery is just a JavaScript library. All the power of jQuery is accessed via JavaScript. But first things first. In order to access the library you will need to add a <code>script</code> tag to your HTML <code>head</code> tag. Click on the link below to go download jQuery.</p>
+    <p>Compressed and uncompressed copies of jQuery files are available. The uncompressed file is best used during development or debugging; the compressed file saves bandwidth and improves performance in production.</p>
+    <p>The src attribute in the script element must point to a copy of jQuery. Download a copy of jQuery from the Downloading jQuery page and store the jquery.js file in the same directory as your HTML file.</p>
+    <a href="http://jquery.com/download/" target="_blank">Go to the jQuery Download!</a>
+    <p>If you decide not to go this route you can always use the widely use CDN, where CDN stands for <b><i>content delivery network or content distribution network.</i></b></p>
+    <p>Once you have your downloaded copy in the appropriate directory add a script to the head tag as above.</p>
+    <p>As a first demonstration we will add an empty div to add content using jQuery.</p>
+    <!-- Created an empty HTML div. Note that there is no content -->
+    <div id="emptyDiv"></div>
+    <h2>Launching Code on Document Ready</h2>
+    <p>To ensure that their code runs after the browser finishes loading the document, jQuery has a statement known as the ready event</p>
+    <img src="assets/images/ready.png" alt="The jQuery .ready event">
+    <h2>Callbacks and Functions</h2>
+    <p>To use callbacks, it is important to know how to pass them into their parent function. We can link Callback without Arguments or Callback with Arguments</p>
+    <h3>Callback without Arguments</h3>
+    <img src="assets/images/callbackNoArgument.png">
+    <h3>Callback with Arguments</h3>
+    <img src="assets/images/callbackWithArgument.png">
+</body>
+<script src=introjQuery.js></script>
+
+</html>
